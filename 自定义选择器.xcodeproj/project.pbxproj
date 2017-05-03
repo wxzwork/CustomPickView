@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8142B4281EB9B18500864964 /* WXZPickCityView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8142B4271EB9B18500864964 /* WXZPickCityView.m */; };
 		81A30C831EB2CDDB00CB3D55 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 81A30C821EB2CDDB00CB3D55 /* main.m */; };
 		81A30C861EB2CDDB00CB3D55 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 81A30C851EB2CDDB00CB3D55 /* AppDelegate.m */; };
 		81A30C891EB2CDDB00CB3D55 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81A30C881EB2CDDB00CB3D55 /* ViewController.m */; };
@@ -15,6 +16,11 @@
 		81A30C911EB2CDDB00CB3D55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81A30C8F1EB2CDDB00CB3D55 /* LaunchScreen.storyboard */; };
 		81A30C9C1EB2CDDB00CB3D55 /* ______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 81A30C9B1EB2CDDB00CB3D55 /* ______Tests.m */; };
 		81A30CA71EB2CDDB00CB3D55 /* ______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 81A30CA61EB2CDDB00CB3D55 /* ______UITests.m */; };
+		81A30CB71EB2CE8000CB3D55 /* WXZBasePickView.m in Sources */ = {isa = PBXBuildFile; fileRef = 81A30CB61EB2CE8000CB3D55 /* WXZBasePickView.m */; };
+		81A30CBA1EB2D51100CB3D55 /* WXZPickDateView.m in Sources */ = {isa = PBXBuildFile; fileRef = 81A30CB91EB2D51100CB3D55 /* WXZPickDateView.m */; };
+		81A30CBF1EB314C600CB3D55 /* area.plist in Resources */ = {isa = PBXBuildFile; fileRef = 81A30CBE1EB314C600CB3D55 /* area.plist */; };
+		81A30CC21EB31A3200CB3D55 /* WXZPickTimeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 81A30CC11EB31A3200CB3D55 /* WXZPickTimeView.m */; };
+		81A30CC51EB31A5100CB3D55 /* WXZCustomPickView.m in Sources */ = {isa = PBXBuildFile; fileRef = 81A30CC41EB31A5100CB3D55 /* WXZCustomPickView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8142B4261EB9B18500864964 /* WXZPickCityView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXZPickCityView.h; sourceTree = "<group>"; };
+		8142B4271EB9B18500864964 /* WXZPickCityView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXZPickCityView.m; sourceTree = "<group>"; };
 		81A30C7E1EB2CDDB00CB3D55 /* 自定义选择器.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "自定义选择器.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81A30C821EB2CDDB00CB3D55 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		81A30C841EB2CDDB00CB3D55 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +59,15 @@
 		81A30CA21EB2CDDB00CB3D55 /* 自定义选择器UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "自定义选择器UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81A30CA61EB2CDDB00CB3D55 /* ______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "______UITests.m"; sourceTree = "<group>"; };
 		81A30CA81EB2CDDB00CB3D55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81A30CB51EB2CE8000CB3D55 /* WXZBasePickView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXZBasePickView.h; sourceTree = "<group>"; };
+		81A30CB61EB2CE8000CB3D55 /* WXZBasePickView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXZBasePickView.m; sourceTree = "<group>"; };
+		81A30CB81EB2D51100CB3D55 /* WXZPickDateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXZPickDateView.h; sourceTree = "<group>"; };
+		81A30CB91EB2D51100CB3D55 /* WXZPickDateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXZPickDateView.m; sourceTree = "<group>"; };
+		81A30CBE1EB314C600CB3D55 /* area.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = area.plist; sourceTree = "<group>"; };
+		81A30CC01EB31A3200CB3D55 /* WXZPickTimeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXZPickTimeView.h; sourceTree = "<group>"; };
+		81A30CC11EB31A3200CB3D55 /* WXZPickTimeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXZPickTimeView.m; sourceTree = "<group>"; };
+		81A30CC31EB31A5100CB3D55 /* WXZCustomPickView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXZCustomPickView.h; sourceTree = "<group>"; };
+		81A30CC41EB31A5100CB3D55 /* WXZCustomPickView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXZCustomPickView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +118,7 @@
 		81A30C801EB2CDDB00CB3D55 /* 自定义选择器 */ = {
 			isa = PBXGroup;
 			children = (
+				81A30CB41EB2CE2F00CB3D55 /* WXZCustomPickView */,
 				81A30C841EB2CDDB00CB3D55 /* AppDelegate.h */,
 				81A30C851EB2CDDB00CB3D55 /* AppDelegate.m */,
 				81A30C871EB2CDDB00CB3D55 /* ViewController.h */,
@@ -138,6 +156,24 @@
 				81A30CA81EB2CDDB00CB3D55 /* Info.plist */,
 			);
 			path = "自定义选择器UITests";
+			sourceTree = "<group>";
+		};
+		81A30CB41EB2CE2F00CB3D55 /* WXZCustomPickView */ = {
+			isa = PBXGroup;
+			children = (
+				81A30CBE1EB314C600CB3D55 /* area.plist */,
+				81A30CB51EB2CE8000CB3D55 /* WXZBasePickView.h */,
+				81A30CB61EB2CE8000CB3D55 /* WXZBasePickView.m */,
+				81A30CB81EB2D51100CB3D55 /* WXZPickDateView.h */,
+				81A30CB91EB2D51100CB3D55 /* WXZPickDateView.m */,
+				8142B4261EB9B18500864964 /* WXZPickCityView.h */,
+				8142B4271EB9B18500864964 /* WXZPickCityView.m */,
+				81A30CC01EB31A3200CB3D55 /* WXZPickTimeView.h */,
+				81A30CC11EB31A3200CB3D55 /* WXZPickTimeView.m */,
+				81A30CC31EB31A5100CB3D55 /* WXZCustomPickView.h */,
+				81A30CC41EB31A5100CB3D55 /* WXZCustomPickView.m */,
+			);
+			path = WXZCustomPickView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -247,6 +283,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				81A30C911EB2CDDB00CB3D55 /* LaunchScreen.storyboard in Resources */,
+				81A30CBF1EB314C600CB3D55 /* area.plist in Resources */,
 				81A30C8E1EB2CDDB00CB3D55 /* Assets.xcassets in Resources */,
 				81A30C8C1EB2CDDB00CB3D55 /* Main.storyboard in Resources */,
 			);
@@ -273,9 +310,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81A30CBA1EB2D51100CB3D55 /* WXZPickDateView.m in Sources */,
 				81A30C891EB2CDDB00CB3D55 /* ViewController.m in Sources */,
 				81A30C861EB2CDDB00CB3D55 /* AppDelegate.m in Sources */,
+				81A30CC51EB31A5100CB3D55 /* WXZCustomPickView.m in Sources */,
+				81A30CB71EB2CE8000CB3D55 /* WXZBasePickView.m in Sources */,
+				81A30CC21EB31A3200CB3D55 /* WXZPickTimeView.m in Sources */,
 				81A30C831EB2CDDB00CB3D55 /* main.m in Sources */,
+				8142B4281EB9B18500864964 /* WXZPickCityView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -509,6 +551,7 @@
 				81A30CAD1EB2CDDB00CB3D55 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		81A30CAE1EB2CDDB00CB3D55 /* Build configuration list for PBXNativeTarget "自定义选择器Tests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +560,7 @@
 				81A30CB01EB2CDDB00CB3D55 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		81A30CB11EB2CDDB00CB3D55 /* Build configuration list for PBXNativeTarget "自定义选择器UITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +569,7 @@
 				81A30CB31EB2CDDB00CB3D55 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
