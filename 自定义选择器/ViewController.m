@@ -68,7 +68,7 @@
             [pickerDate setIsAddYetSelect:YES];//是否显示至今选项
             [pickerDate setIsShowDay:isShowDay];//是否显示日信息
             [pickerDate setDefaultTSelectYear:2017 defaultSelectMonth:4 defaultSelectDay:1];//设定默认显示的日期
-            [pickerDate setValidTime:2010];
+         
      
             [pickerDate setDelegate:self];
    
