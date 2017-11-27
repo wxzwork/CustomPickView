@@ -65,7 +65,7 @@
     
 }
 -(void)setDefaultTSelectYear:(NSInteger)defaultSelectYear defaultSelectMonth:(NSInteger)defaultSelectMonth defaultSelectDay:(NSInteger)defaultSelectDay{
-  
+ 
     if (defaultSelectYear!=0) {
      _defaultYear=defaultSelectYear;
     }
@@ -86,16 +86,20 @@
         _defaultMonth=1;
         _defaultDay=1;
     }
-    
+   
    
     [self.pickerView selectRow:(_defaultYear - _minShowYear) inComponent:0 animated:NO];
-    [self.pickerView reloadComponent:1];
+
     [self.pickerView selectRow:(_defaultMonth - 1) inComponent:1 animated:NO];
+        [self.pickerView reloadComponent:1];
     if (_isShowDay==YES) {
-        [self.pickerView reloadComponent:2];
-        [self.pickerView selectRow:_defaultDay inComponent:1 animated:NO];
+
+        
+        [self.pickerView selectRow:(_defaultDay-1) inComponent:2 animated:NO];
+          [self.pickerView reloadComponent:2];
+           
     }
-    
+//
     [self refreshPickViewData];
     
 }

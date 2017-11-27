@@ -18,13 +18,15 @@
     UIButton *singlePickViewSelectButton;
     BOOL isShowDay;//是否显示日信息
 }
-
+@property(nonatomic, strong)UIScrollView *scrollView;
+@property(nonatomic, strong)UITextField *textField1;
 @end
 
 @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+ 
 //     Do any additional setup after loading the view, typically from a nib.
     dateButton=[UIButton buttonWithType:UIButtonTypeCustom];
     dateButton.frame=CGRectMake(50, 100, 200, 50);
@@ -58,20 +60,20 @@
     singlePickViewSelectButton.tag = 1003;
     isShowDay=YES;
  
+
 }
+
+
 -(void)pickViewSelect:(UIButton *)button{
     if (button.tag==1000) {
-        
+         isShowDay=YES;
            WXZPickDateView *pickerDate = [[WXZPickDateView alloc]init];
     
             
             [pickerDate setIsAddYetSelect:YES];//是否显示至今选项
             [pickerDate setIsShowDay:isShowDay];//是否显示日信息
-            [pickerDate setDefaultTSelectYear:2017 defaultSelectMonth:4 defaultSelectDay:1];//设定默认显示的日期
-         
-     
-            [pickerDate setDelegate:self];
-   
+            [pickerDate setDefaultTSelectYear:2017 defaultSelectMonth:6 defaultSelectDay:10];//设定默认显示的日期
+          [pickerDate setDelegate:self];
            [pickerDate show];
     }else if (button.tag==1001){
         WXZPickCityView *pickerArea = [[WXZPickCityView alloc]init];
